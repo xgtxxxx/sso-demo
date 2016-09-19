@@ -6,7 +6,7 @@ import com.b2s.sso.common.saml.xml.EndpointGenerator;
 import com.b2s.sso.common.saml.xml.SAML2ValidatorSuite;
 import com.b2s.sso.common.util.IDService;
 import com.b2s.sso.common.util.TimeService;
-import com.b2s.sso.common.model.IdpConfiguration;
+import com.b2s.sso.idp.model.IdpConfiguration;
 import com.b2s.sso.idp.saml.xml.AuthnResponseGenerator;
 import com.b2s.sso.idp.spring.AuthnRequestInfo;
 import org.apache.commons.lang.Validate;

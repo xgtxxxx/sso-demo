@@ -4,7 +4,7 @@ import com.b2s.sso.common.model.SimpleAuthentication;
 import com.b2s.sso.common.saml.xml.IssuerGenerator;
 import com.b2s.sso.common.util.IDService;
 import com.b2s.sso.common.util.TimeService;
-import com.b2s.sso.common.model.IdpConfiguration;
+import com.b2s.sso.idp.model.IdpConfiguration;
 import org.joda.time.DateTime;
 import org.opensaml.saml2.core.Assertion;
 import org.opensaml.saml2.core.Issuer;

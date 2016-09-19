@@ -17,6 +17,7 @@ import java.security.interfaces.RSAPrivateKey;
 import java.security.spec.KeySpec;
 import java.security.spec.PKCS8EncodedKeySpec;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -139,6 +140,7 @@ public abstract class CommonConfigurationImpl implements CommonConfiguration {
 
         final InputStream inputStream = getClass().getClassLoader().getResourceAsStream(privatekeyFile);
         byte[] privKeyBytes = IOUtils.toByteArray(inputStream);
+        String code = Arrays.toString(privKeyBytes);
         KeyFactory keyFactory = KeyFactory.getInstance("RSA");
         KeySpec ks = new PKCS8EncodedKeySpec(privKeyBytes);
         RSAPrivateKey privKey = (RSAPrivateKey) keyFactory.generatePrivate(ks);

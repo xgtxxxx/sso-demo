@@ -2,7 +2,7 @@ package com.b2s.sso.idp.spring.security;
 
 import com.b2s.sso.common.model.AuthenticationMethod;
 import com.b2s.sso.common.model.SimpleAuthentication;
-import com.b2s.sso.common.model.IdpConfiguration;
+import com.b2s.sso.idp.model.IdpConfiguration;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.AuthenticationProvider;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;

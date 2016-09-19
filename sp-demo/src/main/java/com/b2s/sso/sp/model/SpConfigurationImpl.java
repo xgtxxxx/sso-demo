@@ -1,10 +1,14 @@
 package com.b2s.sso.sp.model;
 
 import com.b2s.sso.common.model.CommonConfigurationImpl;
+import org.apache.commons.io.IOUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import java.io.IOException;
+import java.io.InputStream;
 import java.security.KeyStore;
+import java.util.Arrays;
 
 public class SpConfigurationImpl extends CommonConfigurationImpl implements SpConfiguration {
 
@@ -38,4 +42,5 @@ public class SpConfigurationImpl extends CommonConfigurationImpl implements SpCo
     public String getSingleSignOnServiceURL() {
         return idpSSOServiceURL;
     }
+
 }

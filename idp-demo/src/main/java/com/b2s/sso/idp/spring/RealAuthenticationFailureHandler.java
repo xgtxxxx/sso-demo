@@ -4,7 +4,7 @@ import com.b2s.sso.common.saml.BindingAdapter;
 import com.b2s.sso.common.saml.xml.EndpointGenerator;
 import com.b2s.sso.common.util.IDService;
 import com.b2s.sso.common.util.TimeService;
-import com.b2s.sso.common.model.IdpConfiguration;
+import com.b2s.sso.idp.model.IdpConfiguration;
 import com.b2s.sso.idp.saml.xml.AuthnResponseGenerator;
 import org.apache.commons.lang.Validate;
 import org.opensaml.saml2.core.Response;
